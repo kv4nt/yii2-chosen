@@ -20,7 +20,7 @@ class ChosenBootstrapAsset extends AssetBundle
     public $sourcePath = '@bower/bootstrap4c-chosen';
 
     public $css = [
-        'component-chosen.min.css',
+        'dist/css/component-chosen.min.css',
     ];
 
     public $depends = [
