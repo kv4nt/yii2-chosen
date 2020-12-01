@@ -14,7 +14,7 @@
     "require": {
         "yiisoft/yii2": "*",
         "bower-asset/bootstrap4c-chosen": "1.1.*",
-        "bower-asset/chosen": "1.2.*"
+        "bower-asset/chosen": "1.8.7"
     },
     "autoload": {
         "psr-4": {
