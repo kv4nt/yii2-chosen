@@ -1,18 +1,18 @@
 <?php
 /**
- * @copyright Copyright (c) 2016 Oleg Balykin
- * @link https://github.com/ezoterik
+ * @copyright Copyright (c) 2020 ArtInt
+ * @link https://github.com/kv4nt
  * @version 1.0.0
  */
-namespace nex\chosen;
+namespace kv4nt\chosen;
 
 use yii\web\AssetBundle;
 
 /**
  * ChosenBootstrapAsset
  *
- * @author Oleg Balykin <ezoterik@gmail.com>
- * @link https://github.com/RomeroMsk/yii2-chosen
+ * @author kv[4]nt <ArtInt>
+ * @link https://github.com/kv4nt/yii2-chosen
  * @see http://harvesthq.github.io/chosen
  */
 class ChosenBootstrapAsset extends AssetBundle
@@ -24,7 +24,7 @@ class ChosenBootstrapAsset extends AssetBundle
     ];
 
     public $depends = [
-        'yii\bootstrap\BootstrapAsset',
-        'nex\chosen\ChosenAsset',
+        'yii\bootstrap4\BootstrapAsset',
+        'kv4nt\chosen\ChosenAsset',
     ];
 }

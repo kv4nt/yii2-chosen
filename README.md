@@ -1,5 +1,6 @@
-Chosen + Bootstrap 3 + Yii2
+Chosen + Bootstrap 4 + Yii2
 ===========================
+Fork from https://github.com/RomeroMsk/yii2-chosen
 
 Credits
 -------
@@ -14,13 +15,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require "nex/yii2-chosen" "*"
+php composer.phar require "kv4nt/yii2-chosen" "*"
 ```
 
 or add
 
 ```json
-"nex/yii2-chosen" : "*"
+"kv4nt/yii2-chosen" : "*"
 ```
 
 to the `require` section of your application's `composer.json` file.
@@ -31,7 +32,7 @@ Usage
 
 ```
 <?php
-use nex\chosen\Chosen;
+use kv4nt\chosen\Chosen;
 ?>
 
 <?= Chosen::widget([
@@ -55,7 +56,7 @@ use nex\chosen\Chosen;
 
 ```
 <?php
-use nex\chosen\Chosen;
+use kv4nt\chosen\Chosen;
 ?>
 <?= Chosen::widget([
     'name' => 'ChosenTest',
@@ -73,14 +74,14 @@ use nex\chosen\Chosen;
 To override default placeholder strings you can add translated messages for `Select an option` (single select) and `Select some options` (multiple select) to your application message file. By default widget will use 'app' category to translate this strings, but you can set your own category by changing `translateCategory` option in widget configuration. For example, you can write this in application config file:
 ```
 <?php
-\Yii::$container->set('nex\chosen\Chosen', [
+\Yii::$container->set('kv4nt\chosen\Chosen', [
     'translateCategory' => 'my-app',
 ]);
 ```
 Also you can override placeholder text when invoking widget (it can be useful for selects with small width):
 ```
 <?php
-use nex\chosen\Chosen;
+use kv4nt\chosen\Chosen;
 ?>
 <?= Chosen::widget([
     'name' => 'ChosenTest',

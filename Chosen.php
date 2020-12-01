@@ -1,10 +1,10 @@
 <?php
 /**
- * @copyright Copyright (c) 2014 Roman Ovchinnikov
- * @link https://github.com/RomeroMsk
+ * @copyright Copyright (c) 2020 ArtInt
+ * @link https://github.com/kv4nt
  * @version 1.0.0
  */
-namespace nex\chosen;
+namespace kv4nt\chosen;
 
 use Yii;
 use yii\helpers\ArrayHelper;
@@ -16,8 +16,8 @@ use yii\widgets\InputWidget;
 /**
  * Chosen renders a Chosen select (Harvest Chosen jQuery plugin).
  *
- * @author Roman Ovchinnikov <nex.software@gmail.com>
- * @link https://github.com/RomeroMsk/yii2-chosen
+ * @author kv[4]nt <ArtInt>
+ * @link https://github.com/kv4nt/yii2-chosen
  * @see http://harvesthq.github.io/chosen
  */
 class Chosen extends InputWidget
