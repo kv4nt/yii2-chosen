@@ -17,10 +17,10 @@ use yii\web\AssetBundle;
  */
 class ChosenBootstrapAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/chosen-bootstrap';
+    public $sourcePath = '@bower/bootstrap4c-chosen';
 
     public $css = [
-        'chosen.bootstrap.css',
+        'component-chosen.min.css',
     ];
 
     public $depends = [
